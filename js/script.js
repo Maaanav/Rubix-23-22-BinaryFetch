@@ -22,7 +22,7 @@ function detectSubChange(subSelected) {
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "ad6412f29bmshc7bd425f393e766p190bb9jsnb87e1dfc18c0",
+    "X-RapidAPI-Key": "d7c0a0c3f0msh0ef006ac6f4a3edp162989jsn4e960af0fa3e",
     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
   },
 };
@@ -103,3 +103,28 @@ document.getElementById("next").addEventListener("click", () => {
     
     getExercise(selectedValue, subSelectedValue);
   });
+
+
+
+
+  const settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
+    "method": "GET",
+    "headers": {
+      "X-RapidAPI-Key": "d7c0a0c3f0msh0ef006ac6f4a3edp162989jsn4e960af0fa3e",
+      "X-RapidAPI-Host": "exercisedb.p.rapidapi.com"
+    }
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+
+  const buttonn = document.querySelector("button")
+buttonn.addEventListener("click", ()=>{
+Notification.requestPermission().then(perm => {
+    if(perm === "granted"){
+        new Notification("Notification", {  
+body:"Please update your Health Status", })   }   })    })

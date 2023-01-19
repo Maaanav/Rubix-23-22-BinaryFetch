@@ -2,8 +2,9 @@ body{
     background-color: white;
 }
 #title{
-    background-color:black;
-    color: white;
+    background-image: url(../images/running.jpg);
+    background-size:unset;
+    background-repeat: no-repeat;
     
 }
 
@@ -12,6 +13,8 @@ h1 {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+    color: #dbd3d2;
+    
 }
 
 h2{
@@ -85,9 +88,11 @@ p{
 color:black;
 }
 
+
+
 /*****FOOTER*********/
 #footer{
-    background-color: #fff;
+    background-color:rgb(175, 175, 175);
     text-align: center;
     height: 100px;
     padding: 7% 15%;

@@ -1,0 +1,73 @@
+body{
+    padding: 0%;
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url(../images/running.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div{
+    padding: 5px;
+    width: 500px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    left: 50%;
+    top: 50%;
+    box-shadow: 2px 2px 20px #919191;
+    transform: translate(-50%, -50%);
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.text{
+    text-align: left;
+    margin-left: 100px;
+    color:#fff
+}
+
+#weight, #height{
+    color: #fff;
+    background-color: transparent;
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    outline: none;
+    text-align: left;
+    font-size: 20px;
+}
+
+#btn{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    font-size: inherit;
+    color: #fff(17, 214, 20);
+    background-color: #919191;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#btn:hover{
+    box-shadow: 1px 1px 10px #357474 ;
+}
+
+#result{
+    color: #fff;
+}
+
+#info{
+    color: #fff;
+    font-size: 15px;
+}
