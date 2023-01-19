@@ -17,14 +17,6 @@
     height:460px;
     background: #fff;
     border-radius: 20px;
-    box-shadow:
-        0 2.8px 2.2px rgba(116, 114, 114, 0.034),
-        0 6.7px 5.3px rgba(116, 114, 114, 0.034),
-        0 10.5px 8px rgba(116, 114, 114, 0.034),
-        0 20.3px 15.9px rgba(116, 114, 114, 0.034),
-        0 21.8px 18.4px rgba(116, 114, 114, 0.034),
-        0 10px 90px rgba(136, 134, 134, 0.034)
-        ;
     text-align: center;
     padding: 50px 40px;
 }
