@@ -88,6 +88,21 @@ p{
 color:black;
 }
 
+/*********PRICING AND PLANS *****************/
+#pricing{
+    width: 100%;
+    padding:100px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    width: 50%;
+   color: black;
+}
 
 
 /*****FOOTER*********/
@@ -101,3 +116,5 @@ color:black;
 .icon-footer{
     margin: 20px 10px;
 }
+
+
