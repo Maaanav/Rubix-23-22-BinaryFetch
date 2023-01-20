@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/exercise.css">
+    <title>Document</title>
+
+   
+    <script src="https://kit.fontawesome.com/90e741a96f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Exercises</h1>
+
+    <label for="cars">Choose one option</label>
+
+    <select name="cars" id="type" onchange="detectChange(this)">
+        <option value="bodyPart">part</option>
+        <option value="target">Muscle</option>
+        <option value="equipment">Equipment</option>
+    </select>
+    <br> <br>
+
+    <div id="sub-type-div">
+        <label for="sub-type">Select area to work on</label>
+        <select name="" id="sub-type" value = "sub-type-value" onchange="detectSubChange(this)">
+
+        </select>
+    </div>
+<br>
+    <button id="find-ex">Search</button>
+
+    <div id="ex-name">
+
+    </div>
+
+    <div id="gifDiv">
+
+        <img  alt="" id="gif">
+    </div>
+
+    <div id="body-part">
+<br>
+    </div>
+
+    <div id="equipment">
+<br>
+    </div>
+
+
+    <div id="target">
+<br>
+    </div>
+
+    
+    <button id="prev" >Prev</button>
+    <button id="next">Next</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
