@@ -115,12 +115,17 @@ color:black;
 #footer{
     background-color:rgb(175, 175, 175);
     text-align: center;
-    height: 100px;
-    padding: 7% 15%;
+    width: 100%;
+    height: 300px;
+    padding: 5% 10%;
+    display: inline-block;
+    color: black;
 }
 
 .icon-footer{
     margin: 20px 10px;
+    
+    width: 50px;
 }
 
 
