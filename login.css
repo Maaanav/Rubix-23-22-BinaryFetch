@@ -1,0 +1,132 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:slategrey;
+    height: 100vh;
+    width:100%;
+}
+.main-wrap .outer-wrap{
+    width:650px;
+    height:660px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px 40px;
+}
+h1{
+    font-size: 28px;
+}
+hr{
+    width:40px;
+    background-color: #30c538;
+    margin: auto;
+    margin-top: 10px;
+    height: 5px;
+}
+.social-login{
+    margin-top:10px;
+}
+.social-login a{
+    width:40px;
+    height:40px;
+    border-radius: 40px;
+    border: 1px solid #dfdede;
+    margin:20px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.social-login a img{
+    width:20px;
+    height:20px;
+}
+p{
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.form{
+    text-align: left;
+}
+.form label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.form input{
+    width: 100%;
+    height: 34px;
+    border: 1px solid #dbd8d8;
+    border-radius: 8px;
+    padding-left:10px;
+    margin:8px 0px;
+}
+.form input:focus{
+    border: 1px solid #cac8c8;
+    outline: none;
+    background: #faf9f9;
+}
+.form input::placeholder{
+    color: #c4c2c2;
+}
+.form input[type="checkbox"]{
+    height: 12px;
+    width: 14px;
+    background-color: #b9b8b8;
+}
+.rm-me{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.fg-pa{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    margin-left:20px;
+}
+.fg-pa:hover{
+    border-bottom: 2px solid #2da1df;
+}
+.btn{
+    height:36px;
+    width:100%;
+    border-radius: 20px;
+    background:rgb(0, 242, 255);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.terms{
+    width: 100%;
+    margin-top: 15px;
+    text-align: left;
+}
+.terms a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+    font-size: 12px;
+}
+.terms a:last-of-type{
+    margin-left: 34px;
+}
+.terms a:hover{
+    border-bottom: 2px solid #2da1df;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+    font-size: 12px;
+}
