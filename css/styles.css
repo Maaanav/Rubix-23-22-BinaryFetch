@@ -1,0 +1,183 @@
+body{
+    background-color: white;
+}
+#title{
+    background-image: url(../images/fit2.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #090909;
+    
+}
+
+h2{
+font-family: Montserrat;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+h3{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 1% 15% 15%;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: black;
+    font-family: "Montserrat-light";
+}
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+    
+}
+
+#features {
+    padding: 7% 15% 5%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  
+   
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #e0110a;
+    margin-bottom: 1rem;
+    
+}
+
+.icon:hover{
+color:black;
+}
+
+
+
+
+
+/*********PRICING AND PLANS *****************/
+#pricing{
+    width: 100%;
+    padding:100px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    width: 50%;
+   color: black;
+}
+
+
+/*****FOOTER*********/
+#footer{
+    background-color:rgb(175, 175, 175);
+    text-align: center;
+    height: 100px;
+    padding: 7% 15%;
+}
+
+.icon-footer{
+    margin: 20px 10px;
+}
+
+
+
+/*********       PROGRAM        *********/
+.program {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    background: #fff; }
+
+    .program .heading {
+      font-size: 34px;
+      font-weight: 300; }
+
+    .program .heading a {
+        color: #000; }
+
+    .program .program-body {
+      padding: 100px; }
+        
+    .program > .thumbnail {
+      overflow: hidden;
+      position: relative; }
+
+    .program {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  background: #fff; }
+  
+  .program .heading {
+    font-size: 24px;
+    font-weight: 300; }
+
+    .program .heading a {
+      color: #000; }
+
+  .program .program-body {
+    padding: 30px 30px 30px; }
+
+    .program .program-body .span {
+      font-weight: 400;
+      font-size: .9rem; }
+
+
+    .program > .thumbnail img {
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+      
+  .program:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
+
+  
